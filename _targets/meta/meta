@@ -1,0 +1,19 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|cd3290eed2fbeaca|||||||||||||||
+age_grid|stem|f89c2d22728c1239|fcb329943d0bc16d|ebe7f5056d198448|110701780||t19916.0130426044s|dc4a2dce79a37591|144752|rds|local|vector|||0.449||
+age_predictions|stem|efd2123a5e8eb82e|5a13f69c2e777a27|c8ee72e525d9cc5b|-1409512639||t19916.0303745289s|edf1f1c5c8b009cd|196564|rds|local|vector|||0.416||
+age_predictions_long|stem|8111a2845e7f636e|e1c7e0deeb51d2cd|3933e8d53eee0709|-2083607767||t19916.0476040329s|8b6f55f31bec44d0|347108|rds|local|vector|||0.008||
+clean_term_names|function|5d629197616aa841|||||||||||||||
+create_age_grid|function|d9a80842700388ca|||||||||||||||
+extract_term_names|function|a5a134e6a104841c|||||||||||||||
+fit_home|stem|db154571b2efc295|982d3943afae04cb|b8a29a37eb0df8da|577547215||t19916.0036471286s|7d4f07854d277f1f|766782|rds|local|vector|||0||
+pivot_longer_age_preds|function|1f0aa1acb8763110|||||||||||||||
+polymod_contact_data|stem|f269b2f32a84273b|29e5840a771e724a|2c530c1562a7fbd1|-1141518991||t19916.0026451852s|91baf6b6bc8d56cc|28377|rds|local|vector|||1.68||
+polymod_setting_models|stem|2d7f8dafdf017560|8e70847e9ae64c16|12ef2a04fc61f2bb|1194962124||t19916.0036466733s|54301246ef14ae44|3048719|rds|local|vector|||86.384|algorithm did not converge. fitted rates numerically 0 occurred. fitted rates numerically 0 occurred|
+polymod_survey_data|stem|0d358987c2fd3e02|9ee69af738a33972|2c530c1562a7fbd1|498738490||t19916.0026255016s|c8c427a644ae7cad|419|rds|local|vector|||0.415||
+predict_individual_terms|function|235155fb2c953687|||||||||||||||
+smooth_home|stem|e17746040ca608f4|31e6288d413e171b|1426e609ab85508e|-1934237708||t19916.0036476203s|549d67bbf7731caa|12135|rds|local|vector|||0.039|argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used|
+smooth_home_long|stem|345de999e1a0cbbf|dccbf47b512103f8|5490b4858d5c2880|777832343||t19916.0042728087s|81f08f501fdb09fd|11653|rds|local|vector|||0.012||
+smooth_long|function|98ee4cf388982d85|||||||||||||||
+term_names|stem|7eac42f498078577|1ea9ff42fb22f0db|39069e46ec93a260|-978326051||t19916.0114864282s|097df6ed47d18f96|107|rds|local|vector|||0.002||
+term_var_names|stem|4ff0e28769be80b2|1c39fc1ce71a0260|d444f5b0faf1cd49|-1517077646||t19916.013042708s|87acf94f6e8bd357|91|rds|local|vector|||0.002||
