@@ -19,7 +19,8 @@ create_age_grid <- function(ages) {
     as_tibble() |>
     # prepare the age data so it has all the right column names
     # that are used inside of `fit_single_contact_model()`
-    conmat::add_symmetrical_features() |>
+    # conmat::add_symmetrical_features() |>
+    add_symmetrical_features() |>
     # this ^^^ does the same as the commented part below:
     # dplyr::mutate(
     #   gam_age_offdiag = abs(age_from - age_to),
@@ -31,7 +32,8 @@ create_age_grid <- function(ages) {
     # ) |>
     # This is to add the school_probability and work_probability columns
     # that are used inside fit_single_contact_model() when fitting the model.
-    conmat::add_modelling_features()
+    # conmat::add_modelling_features()
+    add_modelling_features()
 
 
 }

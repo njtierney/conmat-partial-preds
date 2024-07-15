@@ -8,11 +8,10 @@ format: html
 ```{r}
 #| label: setup
 #| include: false
-knitr::opts_chunk$set(echo = FALSE)
 ## target knits qmds in their own session, so load libraries here.
-## source(here::here("packages.R"))
+source(here::here("packages.R"))
 ## if you want access to the functions you've written
-## lapply(list.files(here::here("./R"), full.names = TRUE), source)
+lapply(list.files(here::here("./R"), full.names = TRUE), source)
 ```
 
 ```{r}
@@ -23,14 +22,35 @@ knitr::opts_chunk$set(echo = FALSE)
 # # If your chunk output is shown in-line, then you'll need to wrap tar_load()
 # # like so:
 # 
-# withr::with_dir(here::here(), {
-#   tar_load(c(target_1, target_2, target_3))
-# })
+withr::with_dir(here::here(), {
+  tar_load(
+    c(
+      age_predictions_long, 
+      plot_age_predictions, 
+      plot_age_predictions_long
+      )
+    )
+})
 # 
 # # This is not needed when using tar_make() to render the document.
 ```
 
 ## Analysis
+
+```{r}
+age_predictions_long
+```
+
+
+```{r}
+plot_age_predictions
+```
+
+
+```{r}
+plot_age_predictions_long
+```
+
 
 ## Reproducibility
 
