@@ -40,7 +40,7 @@ gg_age_terms_settings <- function(age_predictions_all_settings) {
   p_school <- facet_age_plot(pred_all_setting_longer, "school") + scale_fill_viridis_c(option = "plasma")
   p_other <- facet_age_plot(pred_all_setting_longer, "other") + scale_fill_viridis_c(option = "mako")
 
-  patchwork::wrap_plots(
+  wrap_plots(
     p_home,
     p_work,
     p_school,

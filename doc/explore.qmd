@@ -27,7 +27,8 @@ withr::with_dir(here::here(), {
     c(
       age_predictions_long, 
       plot_age_predictions, 
-      plot_age_predictions_long
+      plot_age_predictions_long,
+      plot_age_term_settings
       )
     )
 })
@@ -49,6 +50,15 @@ plot_age_predictions
 
 ```{r}
 plot_age_predictions_long
+```
+
+Note: We might need to normalise these values appropriately so we can combine them into a nicer plot. Multiple colour scales is probably not necessary.
+
+```{r}
+#| label: plot-age-term-setting
+#| fig-width: 10
+#| fig-height: 10
+plot_age_term_settings
 ```
 
 

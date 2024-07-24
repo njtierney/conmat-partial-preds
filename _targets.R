@@ -48,6 +48,8 @@ tar_plan(
     },
     .id = "setting"
   ),
+
+  plot_age_term_settings = gg_age_terms_settings(age_predictions_all_settings),
   age_predictions_long = pivot_longer_age_preds(age_predictions),
   plot_age_predictions = gg_age_partial_predictions(age_predictions),
   plot_age_predictions_long = gg_age_partial_pred_long(age_predictions_long),
