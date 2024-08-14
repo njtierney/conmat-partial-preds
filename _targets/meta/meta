@@ -1,27 +1,32 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|82491e1d5fcf2f42|||||||||||||||
+.Random.seed|object|b07ba9b9b0f0306c|||||||||||||||
+add_age_partial_sum|function|1d086ff6d4dbe704|||||||||||||||
 age_grid|stem|f89c2d22728c1239|fcb329943d0bc16d|fbd46d39e6d5830f|110701780||t19919.1851935289s|dc4a2dce79a37591|144752|rds|local|vector|||0.459||
 age_predictions|stem|efd2123a5e8eb82e|5a13f69c2e777a27|c8ee72e525d9cc5b|-1409512639||t19927.2765980472s|edf1f1c5c8b009cd|196564|rds|local|vector|||0.513||
 age_predictions_all_settings|stem|4ccdf712c783d49a|d64637b7721e23f8|0147686c149385e7|-191906886||t19927.2787110771s|9cc6725b92f12a8d|744114|rds|local|vector|||1.835||
 age_predictions_long|stem|8111a2845e7f636e|e1c7e0deeb51d2cd|3933e8d53eee0709|-2083607767||t19916.0476040329s|8b6f55f31bec44d0|347108|rds|local|vector|||0.008||
+age_predictions_long_sum|stem|a56ab74aa1632701|a9d5834933b106e4|628639ee9fffb567|2140295017||t19949.1509097208s|e6018b5ab6035e20|61506|rds|local|vector|||0.066||
 clean_term_names|function|5d629197616aa841|||||||||||||||
 create_age_grid|function|ae02785b995e0390|||||||||||||||
-explore|stem|87afe6335a882663|34350787f5525fa7|471409e396895e5c|-1263237259|doc/explore.html*doc/explore.qmd|t19919.1852897302s|a583978c78dabceb|28356|file|local|vector|||6.804||
+explore|stem|6bbce6592900a14a|ff243fa7f3395212|1d739e638bb9adb5|-1263237259|doc/explore.html*doc/explore.qmd|t19949.1340171644s|978d99236d905f41|30023|file|local|vector|||9.342||
 extract_term_names|function|a5a134e6a104841c|||||||||||||||
 fit_home|stem|db154571b2efc295|982d3943afae04cb|b8a29a37eb0df8da|577547215||t19916.0036471286s|7d4f07854d277f1f|766782|rds|local|vector|||0||
 fit_home_summary|stem|5130e6eb353c54a4|70d3f96bb19193eb|1426e609ab85508e|-2077984263||t19919.1852064573s|60ebacaff70fa763|21495|rds|local|vector|||0.006||
 fit_other|stem|cecee456684b9b51|077d0a09188fe0ef|b8a29a37eb0df8da|1510455385||t19919.1851949882s|5676bc68a13bebc1|768133|rds|local|vector|||0||
 fit_school|stem|1b26ab648f3c796e|ccfe7c77368caa46|b8a29a37eb0df8da|355718807||t19919.1851945614s|4980ed5b8af99ddb|756367|rds|local|vector|||0||
 fit_work|stem|cb2194395ce6c1fd|04c9da02472b79c6|b8a29a37eb0df8da|-1853073901||t19919.1851941542s|e74609787792db88|763021|rds|local|vector|||0||
-gg_age_partial_pred_long|function|674a111ad22757f0|||||||||||||||
+gg_age_partial_pred_long|function|0ca91ab10a8632cc|||||||||||||||
 gg_age_partial_predictions|function|2f6cf7bd77126996|||||||||||||||
-gg_age_terms_settings|function|7dad5b11b375ffb1|||||||||||||||
+gg_age_partial_sum|function|632e200b35332553|||||||||||||||
+gg_age_terms_settings|function|731410cc6ca95026|||||||||||||||
 partial_dep_home|stem|5c0a9e300dd57c14|259e1487291761ae|1426e609ab85508e|527752329||t19919.1852062735s|07f125f3326ca355|7112788|rds|local|vector|||0.524|argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used. argument pattern has length  1 and only the first element will be used|
 pivot_longer_age_preds|function|1f0aa1acb8763110|||||||||||||||
 plot_age_predictions|stem|95c869582cc88ef6|0dfa18cd23b2d670|40ec1fe717c53af6|1633576260||t19919.1852065441s|e255484007059372|43|rds|local|vector|||0.001||
-plot_age_predictions_long|stem|5c4a53473a614751|ae10f7434fb7d173|b78d99e665415649|1427437940||t19927.2768344062s|5c6e33ba03726c5a|1925094|rds|local|vector|||0.034||
-plot_age_term_settings|stem|04e36ff0e09e2d63|0d4025d4ae4e12bf|468aed204a307b7b|-1801654154||t19927.323550078s|1148a0611411e40e|6372957|rds|local|vector|||0.597||
+plot_age_predictions_long|stem|db63e71bb2d9e9ac|ae10f7434fb7d173|b515529db06b9fc5|1427437940||t19949.1509088542s|a22d1ae8ffa14931|1925119|rds|local|vector|||0.028||
+plot_age_predictions_sum|stem|b3dad64137c06056|182f05d6505bf581|6e97d9d5b55b4a8e|-1901565089||t19949.1513269617s|b95c2bd32db3bd1c|399729|rds|local|vector|||0.027||
+plot_age_term_settings|stem|09836963c68e2a5d|0d4025d4ae4e12bf|a9bed1a13489e447|-1801654154||t19949.1339076846s|3e359909920a96f6|6372949|rds|local|vector|||0.334||
 plot_all_setting_pmax|stem||96f8f2db014d5fcd|0e9a08f7d3a6b21d|826770890||t19927.3235502696s||0|rds|local|vector|||0.004||could not find function gg_age_pmax
+plot_all_terms_sum|stem|46a9f05e0d610408|587336b23cd851e3|2a482825af50c7ee|1200892640||t19949.1517773459s|eae78126ed2bfa00|2324862|rds|local|vector|||0.008||
 polymod_contact_data|stem|f269b2f32a84273b|29e5840a771e724a|2c530c1562a7fbd1|-1141518991||t19916.0026451852s|91baf6b6bc8d56cc|28377|rds|local|vector|||1.68||
 polymod_setting_models|stem|2d7f8dafdf017560|8e70847e9ae64c16|12ef2a04fc61f2bb|1194962124||t19916.0036466733s|54301246ef14ae44|3048719|rds|local|vector|||86.384|algorithm did not converge. fitted rates numerically 0 occurred. fitted rates numerically 0 occurred|
 polymod_survey_data|stem|0d358987c2fd3e02|9ee69af738a33972|2c530c1562a7fbd1|498738490||t19916.0026255016s|c8c427a644ae7cad|419|rds|local|vector|||0.415||

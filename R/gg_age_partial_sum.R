@@ -3,24 +3,25 @@
 #' .. content for \details{} ..
 #'
 #' @title
-#' @param age_predictions_long
+#' @param age_predictions_long_sum
 #' @return
 #' @author njtierney
 #' @export
-gg_age_partial_pred_long <- function(age_predictions_long) {
+gg_age_partial_sum <- function(age_predictions_long_sum) {
 
-  age_predictions_long %>%
     ggplot(
+      data = age_predictions_long_sum,
       aes(
         x = age_from,
         y = age_to,
-        group = pred,
-        fill = value
+        fill = gam_total_term
       )
     ) +
-    facet_wrap(~pred) +
     geom_tile() +
-    scale_fill_viridis_c() +
+    scale_fill_viridis_c(
+      limits = c(0, 12)
+    ) +
     theme_minimal()
+
 
 }

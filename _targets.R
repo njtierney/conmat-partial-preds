@@ -52,6 +52,22 @@ tar_plan(
   plot_age_term_settings = gg_age_terms_settings(age_predictions_all_settings),
   age_predictions_long = pivot_longer_age_preds(age_predictions),
   plot_age_predictions = gg_age_partial_predictions(age_predictions),
+  # this is a figure we want
   plot_age_predictions_long = gg_age_partial_pred_long(age_predictions_long),
+  age_predictions_long_sum = add_age_partial_sum(age_predictions_long),
+  # this is a figure we want
+  plot_age_predictions_sum = gg_age_partial_sum(age_predictions_long_sum),
+  # this is a figure we want
+  plot_all_terms_sum = plot_age_predictions_long +
+    plot_age_predictions_sum +
+    plot_layout(
+      design = "
+      AAAAAA##
+      AAAAAAEE
+      AAAAAAEE
+      AAAAAA##
+      "
+    ),
+
   tar_quarto(explore, "doc/explore.qmd")
 )
